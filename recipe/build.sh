@@ -8,5 +8,4 @@ cmake ../ \
       -DCMAKE_INSTALL_LIBDIR=lib \
       -DMATH_LIBRARY_BACKEND="Casadi"
 
-make -j $CPU_COUNT
-make install
+ninja install
